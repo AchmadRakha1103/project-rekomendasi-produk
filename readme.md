@@ -1,6 +1,6 @@
 # Project Rekomendasi Produk
 
-## 📌 Deskripsi Aplikasi
+## Deskripsi Aplikasi
 
 Project Rekomendasi Produk adalah aplikasi berbasis **Node.js + Express + Sequelize (SQLite)** yang bertujuan untuk membantu pengguna mendapatkan **rekomendasi produk terbaik** berdasarkan beberapa kriteria utama, yaitu **harga, kualitas, dan stok**.
 
@@ -14,7 +14,7 @@ Aplikasi dibuat sebagai **Final Project / Project UAS**.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * **Node.js**
 * **Express.js**
@@ -26,7 +26,7 @@ Aplikasi dibuat sebagai **Final Project / Project UAS**.
 
 ---
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```
 project-rekomendasi-produk/
@@ -60,11 +60,11 @@ project-rekomendasi-produk/
 
 ---
 
-## ⚙️ Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer Anda.
 
-### 1️⃣ Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/AchmadRakha1103/project-rekomendasi-produk.git
@@ -73,7 +73,7 @@ cd project-rekomendasi-produk
 
 ---
 
-### 2️⃣ Install Dependencies
+### 2. Install Dependencies
 
 Pastikan Node.js sudah terinstall, lalu jalankan:
 
@@ -83,7 +83,7 @@ npm install
 
 ---
 
-### 3️⃣ Migrasi Database
+### 3. Migrasi Database
 
 Database **tidak disertakan** di dalam repository.
 Gunakan perintah berikut untuk membuat database dan tabel secara otomatis:
@@ -96,7 +96,7 @@ Perintah ini akan menghasilkan file `database.sqlite` secara otomatis.
 
 ---
 
-### 4️⃣ Menjalankan Aplikasi
+### 4. Menjalankan Aplikasi
 
 Jalankan server dengan perintah:
 
@@ -108,7 +108,7 @@ Jika berhasil, akan muncul pesan bahwa server berjalan.
 
 ---
 
-### 5️⃣ Akses Aplikasi
+### 5. Akses Aplikasi
 
 Buka browser dan akses:
 
@@ -118,7 +118,7 @@ http://localhost:3000
 
 ---
 
-## 📊 Fitur Utama Aplikasi
+## Fitur Utama Aplikasi
 
 * Menampilkan daftar produk
 * Input data produk (harga, kualitas, stok)
@@ -128,7 +128,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 Konsep OOP yang Diterapkan
+## Konsep OOP yang Diterapkan
 
 * **Class Product** sebagai representasi data produk
 * **Class RecommendedProduct** sebagai turunan (inheritance) dari Product
@@ -136,7 +136,7 @@ http://localhost:3000
 
 ---
 
-## 🗄️ Struktur Database
+## Struktur Database
 
 ### Tabel `Products`
 
@@ -162,13 +162,15 @@ Relasi:
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
-* (Isi nama anggota kelompok di sini)
+* Achmad Rakha Yasykurrahman (2510312065)
+* Byoma Alesi Pamungkas (2510312058)
+* Ryukie Putra Wahyu Kusuma (2510312075)
 
 ---
 
-## 📌 Catatan Tambahan
+## Catatan Tambahan
 
 * Folder `node_modules` dan file `database.sqlite` **tidak diunggah ke GitHub**
 * Database dibuat otomatis melalui migrasi Sequelize
