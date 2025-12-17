@@ -1,0 +1,28 @@
+<%- include('layout', { body: `
+<h3 class="mb-3">Hasil Rekomendasi Produk</h3>
+
+<table class="table table-striped table-bordered">
+  <thead class="table-dark">
+    <tr>
+      <th>Nama</th>
+      <th>Harga</th>
+      <th>Kualitas</th>
+      <th>Stok</th>
+      <th>Skor</th>
+    </tr>
+  </thead>
+  <tbody>
+    ${results.map(r => `
+      <tr>
+        <td>${r.name}</td>
+        <td>${r.price}</td>
+        <td>${r.quality}</td>
+        <td>${r.stock}</td>
+        <td><b>${r.score}</b></td>
+      </tr>
+    `).join('')}
+  </tbody>
+</table>
+
+<a href="/add" class="btn btn-primary">Tambah Produk</a>
+` }) %>

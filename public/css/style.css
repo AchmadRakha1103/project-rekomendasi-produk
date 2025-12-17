@@ -1,0 +1,12 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+table td, table th {
+  vertical-align: middle;
+  text-align: center;
+}
